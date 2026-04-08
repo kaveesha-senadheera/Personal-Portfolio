@@ -21,10 +21,10 @@ function toggleTheme() {
 // CV Download Handler
 function downloadCV() {
     // Path to the uploaded CV file
-    const cvUrl = 'img/Kaveesha_CV.pdf';
+    const cvUrl = 'img/Kaveesha_cv.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'Kaveesha_CV.pdf';
+    link.download = 'Kaveesha_cv.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
